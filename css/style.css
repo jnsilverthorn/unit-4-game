@@ -1,0 +1,84 @@
+body {
+    background: url("../images/sakura.png");
+}
+
+.container1{
+    background-color: black;
+    margin: 5px;
+    padding: 10px;
+    width: 43%;
+    min-width: min-content;
+}
+
+#randNum, #userScore{
+    background-color: rgb(78, 221, 221);
+    display: inline-block;
+    width: 25%;
+    min-width: fit-content;
+    padding: 4%;
+    margin: 5px;
+    font-size: 2rem;
+    color: rgb(84, 17, 146);
+}
+
+#scoreboard{
+    background-color: rgb(78, 221, 221);
+    display: inline-block;
+    color: rgb(84, 17, 146);
+    font-size: 1.1rem;
+    margin: 5px;
+    padding: 2.75% 3% 4.18% 1.5%;
+    width: 7.73%;
+    min-width: fit-content;
+}
+
+#wins{
+    padding-bottom: 5px;
+}
+
+#losses{
+    padding-top: 5px;
+}
+
+.container3{
+    margin: 5px;
+}
+
+.button{
+    background-color: black;
+}
+
+#userTotal{
+    font-size: 1.1rem;
+    background-color: black;
+    color: violet;
+    width: 32%;
+    min-width: fit-content;
+    padding: 5px;
+    margin: 5px;
+}
+
+.rules{
+    font-size: 1.1rem;
+    padding: 10px;
+    margin: 15px 10px 10px 10px;
+    color: violet;
+}
+
+#gameID{
+    font-size: 2.2rem;
+    color: violet;
+    font-weight: bold;
+    background-color: black;
+    width: 25%;
+    min-width: fit-content;
+    padding: 10px;
+    margin: 5px;
+}
+
+span{
+    color: #ffffff;
+    position: absolute;
+    margin: 35px;
+}
+
