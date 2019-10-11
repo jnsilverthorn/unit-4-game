@@ -70,7 +70,7 @@ body {
     color: violet;
     font-weight: bold;
     background-color: black;
-    width: 25%;
+    max-width: fit-content;
     min-width: fit-content;
     padding: 10px;
     margin: 5px;
@@ -79,6 +79,8 @@ body {
 span{
     color: #ffffff;
     position: absolute;
-    margin: 35px;
+    margin: 35px auto;
+    text-align: center;
+    min-width: 86px;
 }
 

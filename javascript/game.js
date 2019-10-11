@@ -15,13 +15,13 @@ number2.innerText = userNum;
 winCount.innerText = ("Wins: " + wins);
 lossCount.innerText = ("Losses: " + losses);
 
-if (number1.innerText === compNum){
-    $("#randNum").on("click", function(){
+$("#randNum").on("click", function(){
+    if (number1.innerText === compNum){
         number1.innerText = Math.floor(Math.random()*(102)+19);
-        var blueValue = gemIndex[Math.floor(Math.random()*(12))];
-        var greenValue = gemIndex[Math.floor(Math.random()*(12))];
-        var pinkValue = gemIndex[Math.floor(Math.random()*(12))];
-        var purpValue = gemIndex[Math.floor(Math.random()*(12))];
+        var blueValue = Math.floor(Math.random()*(12)+1);
+        var greenValue = Math.floor(Math.random()*(12)+1);
+        var pinkValue = Math.floor(Math.random()*(12)+1);
+        var purpValue = Math.floor(Math.random()*(12)+1);
 
         var resetG = function(){
             number1.innerText = compNum;
@@ -107,7 +107,8 @@ if (number1.innerText === compNum){
                 };        
             }));
         }));
-    });
-};
+    };
+});
+
 
 
